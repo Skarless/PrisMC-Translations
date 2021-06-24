@@ -51,8 +51,8 @@ Friends:
     TimedOutFrom: '&5Friends: &cYour friend request from &e[PLAYER] &chas timed out!'
     TimedOutTo: '&5Friends: &cYour friend request to &e[PLAYER] &chas timed out!'
     Sent: '&5Friends: &aYou have successfully sent a friend request!'
-    AlreadySent: '&5Friends: &cYou''ve already sent that player a friend request.'
-    AlreadyReceived: '&5Friends: &cYou have already received a friend request from this player!'
+    AlreadySent: '&5Friends: &cYou''ve already sent that player a friend request!'
+    AlreadyReceived: '&5Friends: &cYou''ve already received a friend request from this player!'
     AlreadyFriends: '&5Friends: &cYou are already friends with this player.'
     Request: '&6[PLAYER] &ehas sent you a friend request!'
     ADD: '&a&lADD'
@@ -61,7 +61,7 @@ Friends:
     ADDHover: '&7Click me to accept this friend request.'
     DENYHover: '&7Click me to deny this friend request.'
   Accept:
-    NoRequest: '&5Friends: &cYou have''nt received a friend request from this player.'
+    NoRequest: '&5Friends: &cYou haven''t received a friend request from this player.'
     NowFriends: '&5Friends: &aYou are now friends with &e[PLAYER]&a!'
   List:
     Header: '&d&lYour Friends'
