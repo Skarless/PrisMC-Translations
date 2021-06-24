@@ -32,9 +32,9 @@
 # Main Lobby Messages
 Main:
   WelcomeTitle: '&e&k&l:&r &d&lPris&f&lMC &e&k&l:&r'
-  WelcomeSubTitle: '&cWe are currently in &4&lDEVELOPMENT&c!'
+  WelcomeSubTitle: '&cWe are currently under &4&lDEVELOPMENT&c!'
   ConnectingToServer: '&7Attempting to move you to a new server...'
-  AllServersOffline: '&cAll servers appear to be offline. Try again later.'
+  AllServersOffline: '&cAll servers appear to be offline. Try again later!'
   ServerIsOffline: '&cThe server you requested to join is currently offline!'
   ComingSoon: '&cSorry! This feature hasn''t been implemented yet.'
   Items:
@@ -72,7 +72,7 @@ Commands:
   InvalidArgs: '&cInvalid arguments!'
   MissingPermission: '&cInsufficient permission.'
   Health:
-    FiveThroughTwentyFortyEight: '&cYou must choose aa number between 5 and 2048.'
+    FiveThroughTwentyFortyEight: '&cYou must choose a number between 5 and 2048.'
     Updated: '&dYour health scale has been updated!'
   Speed:
     ZeroThroughTen: '&cYou must choose a number between 0 and 10.'
@@ -109,7 +109,7 @@ Commands:
     OffOthers: '&dGod mode &cDISABLED &dfor &e[PLAYER]&d!' # [PLAYER]
   Hat:
     HatSet: '&3Girl, you got style. Enjoy your hat.'
-    MustHoldItem: '&cYou must be holding an item.'
+    MustHoldItem: '&cYou must be holding an item to wear it as a hat.'
   Heal:
     Healed: '&dYou have been healed.'
     HealedOthers: '&dYou have healed &e[PLAYER]&d.' # [PLAYER]
@@ -250,7 +250,7 @@ ProfileMenu:
       Lore:
         - '&7Click here to open our webstore!'
         - '&7All purchases help the server grow and continue'
-        - '&7to provide a safe-fun place to play.'
+        - '&7to provide a safe and fun place to play.'
     Language:
       Title: '&2Language'
       Lore:
@@ -340,7 +340,7 @@ ProfileMenu:
     Book:
       Title: '&6Select your language:'
       Lore:
-        - '&7Can''t find yours? Consider joining our'
+        - '&7Can''t find your langauge? Consider joining our'
         - '&7translation team! Here at PrisMC, we''re'
         - '&7always looking for helpful hands to further'
         - '&7diversify our server. So what are you waiting for?'
@@ -363,10 +363,13 @@ ProfileMenu:
         Title: '&6Español'
         Lore:
           - ''
-          - '&fSe traducen los siguientes:'
-          - '&7- &cSe necesitan traducciones'
+          - '&fLo siguiente esta traducido:'
+          - '&7- &aEl Lobby'
+          - '&7- &aTodo los Modos de Juego'
+          - '&7- &aEventos'
+          - '&7- &aExtras'
           - ''
-          - '&e¡Haz clic para cambiar tu idioma!'
+          - '&eHaz clic aquí para cambiar tu lenguaje!'
         Switched: '&a¡Su idioma ahora está configurado en &eEspañol&a!'
       French:
         Title: '&6Français'
